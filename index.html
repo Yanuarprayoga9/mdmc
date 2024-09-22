@@ -4,7 +4,11 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<<<<<<< HEAD
   <link rel="stylesheet" href="style.css" />
+=======
+  <link rel="stylesheet" href="output.css" />
+>>>>>>> 39106db1f1708f1fed29705066b677f0d24e989a
   <link rel="stylesheet" href="./assets/css/bghero.css" />
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -15,6 +19,7 @@
 </head>
 
 <body>
+<<<<<<< HEAD
   <div class="hidden sidebar  bg-gray-100 w-full h-screen">
     <div class="w-full h-screen bg-white rounded p-3 shadow-lg">
       <div class="flex items-center space-x-4 p-2 mb-5">
@@ -242,6 +247,97 @@
 </body>
 <script src="./assets/js/navbar.js"></script>
 <script src="./assets/js/sidebar.js"></script>
+=======
+  <nav class="z-20 w-full h-16 bg-lightd flex justify-between sm:px-12">
+    <img src="./assets/img/Logo MDMC.svg" class="w-40" />
+    <ul class="flex items-center justify-evenly gap-x-6">
+      <li class="text-blue-500">
+        <a href="/profil/">hai</a>
+      </li>
+      <!-- example dropdown -->
+      <li>
+        <div class="relative inline-block text-left">
+          <div>
+            <button type="button"
+              class="inline-flex w-full justify-center gap-x-1.5 rounded-md  px-3 py-2 text-sm font-semibold "
+              id="menu-button" aria-expanded="true" aria-haspopup="true" onclick="toggleNav()">
+              lorem
+              <svg class="-mr-1 h-5 w-5 text-gray-400" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                <path fill-rule="evenodd"
+                  d="M5.23 7.21a.75.75 0 011.06.02L10 11.168l3.71-3.938a.75.75 0 111.08 1.04l-4.25 4.5a.75.75 0 01-1.08 0l-4.25-4.5a.75.75 0 01.02-1.06z"
+                  clip-rule="evenodd" />
+              </svg>
+            </button>
+          </div>
+
+          <!--
+            Dropdown menu, show/hide based on menu state.
+        
+            Entering: "transition ease-out duration-100"
+              From: "transform opacity-0 scale-95"
+              To: "transform opacity-100 scale-100"
+            Leaving: "transition ease-in duration-75"
+              From: "transform opacity-100 scale-100"
+              To: "transform opacity-0 scale-95"
+          -->
+          <div
+            class="navdrop hidden absolute right-0 z-10 mt-2 w-56 origin-top-right rounded-md bg-white shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none"
+            role="menu" aria-orientation="vertical" aria-labelledby="menu-button" tabindex="-1">
+            <div class="py-1" role="none">
+              <!-- Active: "bg-gray-100 text-gray-900", Not Active: "text-gray-700" -->
+              <a href="#" class="block px-4 py-2 text-sm text-gray-700" role="menuitem" tabindex="-1"
+                id="menu-item-0">Account settings</a>
+              <a href="#" class="block px-4 py-2 text-sm text-gray-700" role="menuitem" tabindex="-1"
+                id="menu-item-1">Support</a>
+              <a href="#" class="block px-4 py-2 text-sm text-gray-700" role="menuitem" tabindex="-1"
+                id="menu-item-2">License</a>
+              <form method="POST" action="#" role="none">
+                <button type="submit" class="block w-full px-4 py-2 text-left text-sm text-gray-700" role="menuitem"
+                  tabindex="-1" id="menu-item-3">
+                  Sign out
+                </button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </li>
+
+      <li>lorem</li>
+      <li>lorem</li>
+      <li>lorem</li>
+      <li>
+        <!-- Base -->
+
+        <a class="inline-block rounded-3xl border bg-semidark border-semidark px-8 py-3 text-sm font-medium text-white hover:bg-transparent hover:text-semidark focus:outline-none focus:ring active:text-semidark"
+          href="#">
+          Download
+        </a>
+
+        <!-- Border -->
+      </li>
+    </ul>
+  </nav>
+
+  <!-- HERO START -->
+  <!--
+  Heads up! 👋
+
+  This component comes with some `rtl` classes. Please remove them if they are not needed in your project.
+-->
+
+  <section class="bg-hero h-screen flex flex-col justify-center items-center w-full  bg-cover bg-center bg-no-repeat">
+    <h1 class="text-center font-medium font-md text-2xl max-w-3xl">
+      LRB bertugas mengkoordinasikan sumberdaya Muhammadiyah dalam
+      upaya tanggap darurat – pemulihan,
+      mitigasi-kesiapsiagaan, dan penguatan sistem jaringan,
+      organisasi dan pengelolaan sumberdaya penanggulangan bencana.
+    </h1>
+  </section>
+
+  <h2 class="bg"></h2>
+</body>
+<script src="./assets/js/navbar.js"></script>
+>>>>>>> 39106db1f1708f1fed29705066b677f0d24e989a
 <script>
   function showAlert() {
     alert("Button clicked!");
