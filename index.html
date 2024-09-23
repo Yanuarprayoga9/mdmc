@@ -146,10 +146,11 @@
       </ul>
     </div>
   </div>
+  <!-- sidebar end -->
 
   <div class="main-content  h-full w-full">
     <!-- navbar -->
-    <nav class=" w-full h-24 bg-lightd flex justify-between sm:px-12">
+    <nav class=" w-full h-24  flex justify-between sm:px-12">
       <img src="./assets/img/Logo MDMC.svg" class="w-52 object-fill" />
       <ul class="hidden sm:flex  items-center gap-x-2  sm:gap-x-6">
         <li class="text-blue-500">
@@ -217,14 +218,13 @@
         </li>
       </ul>
       <button onclick="toggleSide()" class=" sm:hidden px-8  font-bold" href="#">
-        <img src="assets/img/hamburger.svg" alt="" srcset="" >
+        <img src="assets/img/hamburger.svg" alt="" srcset="">
       </button>
     </nav>
 
     <!-- HERO START -->
     <!--
     Heads up! 👋
-  
     This component comes with some `rtl` classes. Please remove them if they are not needed in your project.
   -->
 
@@ -237,8 +237,51 @@
       </h1>
     </section>
 
+    <!-- SECOND CONTENT START -->
+    <div class="w-full h-80 flex justify-center mt-12 p-2">
+      <div class="max-w-[1200px] grid grid-cols-1 sm:grid-cols-2  gap-x-4 items-center">
+        <div class=" h-full order-2 sm:order-1">
+          <img src="./assets/img/hero.svg" class="w-full rounded-xl h-full object-cover">
+        </div>
+        <div class="max-w-[500px] order-1 sm:order-2 flex py-2 flex-col space-y-4 ">
+          <h1 class="text-3xl ">SECOND CONTENT</h1>
+          <p class="text-xl text-slate-600">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto, consectetur vero. Odit, beatae dolorum
+            repellat dolor quaerat nisi aut vitae, accusamus obcaecati minima optio temporibus dolore placeat quas
+            veritatis quisquam! Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quos quisquam quae, ipsum
+            modi, autem, a nisi ea tenetur nihil libero assumenda. Voluptatibus distinctio adipisci nobis veniam
+            molestias aperiam atque illum?</p>
+          <p class="text-xl text-slate-600">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Delectus optio animi explicabo repudiandae
+            inventore, voluptas sint eos natus maiores adipisci.</p>
+        </div>
+      </div>
+    </div>
   </div>
-  <h2 class="bg"></h2>
+      <!-- SECOND CONTENT END -->
+
+       <!-- THIRD CONTENT START -->
+    <div class="bg-hero w-full  flex justify-center mt-[500px] sm:mt-40 p-2 py-12 ">
+      <div class="max-w-[1200px] grid grid-cols-1 sm:grid-cols-2  gap-x-4 items-center">
+        <div class=" h-full  order-2 ">
+          <img src="./assets/img/hero.svg" class="w-full rounded-xl h-full object-cover">
+        </div>
+        <div class="max-w-[500px] order-1  flex py-2 flex-col space-y-4 ">
+          <h1 class="text-3xl ">SECOND CONTENT</h1>
+          <p class="text-xl text-slate-600">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto, consectetur vero. Odit, beatae dolorum
+            repellat dolor quaerat nisi aut vitae, accusamus obcaecati minima optio temporibus dolore placeat quas
+            veritatis quisquam! Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quos quisquam quae, ipsum
+            modi, autem, a nisi ea tenetur nihil libero assumenda. Voluptatibus distinctio adipisci nobis veniam
+            molestias aperiam atque illum?</p>
+          <p class="text-xl text-slate-600">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Delectus optio animi explicabo repudiandae
+            inventore, voluptas sint eos natus maiores adipisci.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="">
+    <h1>sad</h1>
+  </div>
+      <!-- THIRD CONTENT END -->
 </body>
 <script src="./assets/js/navbar.js"></script>
 <script src="./assets/js/sidebar.js"></script>
