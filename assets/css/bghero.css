@@ -23,10 +23,12 @@
 }
 .bg-bg2{
     background-image: url('../img/bg-2.jpg');
-    position: relative; /* Ensure the parent is positioned */
+    position: relative;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+    background: grayscale(100%); /* Hanya untuk latar belakang */
+
 }
 
 .bg-bg2::before {
@@ -36,11 +38,12 @@
     left: 0;
     right: 0;
     bottom: 0;
-    background-color: rgba(255, 255, 255, 0.748); /* White overlay with opacity */
-    z-index: 1; /* Keep overlay above the background */
+    background-color: rgba(255, 255, 255, 0.748);
+    z-index: 1;
 }
 
 .bg-bg2 > * {
-    position: relative; /* Ensure content appears above the overlay */
+    position: relative;
     z-index: 2;
 }
+
